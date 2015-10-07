@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Superclime: Research Methods</title>
+    <meta http-equiv="cleartype" content="on">
+    <meta name="MobileOptimized" content="320">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    
+    
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+      <link rel="stylesheet" href="css/styles.css">
+            <link rel="stylesheet" href="css/index.css">
+            
+            
+            <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+            
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+
+  </head>
+  
+  <body>
+
+    <nav id="menu" class="menu">
+      <a href="http://coclimate.com" target="_blank">
+        <header class="menu-header">
+		<span class="menu-header-title">CoClimate</span>
+        </header>
+        </a>
+      
+
+      
+      <section class="menu-section">
+			<ul class="menu-section-list">
+          <li><a href="index.html">Overview</a></li>      
+          </ul>
+          </section>
+      
+      <section class="menu-section">
+        <h3 class="menu-section-title">Activation</h3>
+        <ul class="menu-section-list">
+          <li><a href="milestones.html">Milestones</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
+          <li><a href="obstacles.html">Obstacles</a></li>
+        </ul>
+      </section>
+      
+      <section class="menu-section">
+        <h3 class="menu-section-title">Values</h3>
+        <ul class="menu-section-list">
+          <li><a href="cultural.html">Cultural</a></li>
+          <li><a href="individual.html">Individual</a></li>
+        </ul>
+      </section> 
+      
+      <section class="menu-section">
+        <h3 class="menu-section-title">Communication</h3>
+        <ul class="menu-section-list">
+          <li><a href="content.html">Content</a></li>
+          <li><a href="research.html">Research Methods</a></li>
+          <li><a href="social.html">Social</a></li>
+          <li><a href="framing.html">Framing</a></li>
+          <li><a href="media.html">Media Types</a></li>
+          <li><a href="channels.html">Channels</a></li>
+        </ul>
+      </section>
+      
+      <section class="menu-section">
+        <h3 class="menu-section-title">CoClimate</h3>
+        <ul class="menu-section-list">
+          <li><a href="http://coclimate.com/about" target="_blank">About CoClimate</a></li>
+          <li><a href="http://twitter.com/coclimate" target="_blank">Follow Us</a></li>
+        </ul>
+      </section>
+      
+    </nav>
+
+    <main id="panel" class="panel">
+      <header class="panel-header">
+    <button class="btn-menu toggle-button">
+          <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </button>
+
+              </header>
+
+        
+        <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+<div class="swiper-slide"><h4>	RESEARCH METHODS	</h4><br>	<img src="assets/research_ethnography.png" width="100"><br><h2>	Interviews & Ethnography	</h2><br><p>	People's stories, perspectives, experiences, and vocabulary are critical for understanding an audience. Identify mentions of tasks, metaphors, motivations, practices, feelings, and behaviors. Look for patterns and phrases that identify how your audience interprets, talks about, or frames different concepts.	</p></div>
+<div class="swiper-slide"><h4>	RESEARCH METHODS	</h4><br>	<img src="assets/research_messagetesting.png" width="100"><br><h2>	Message Testing	</h2><br><p>	Different forms of messages appeal to different groups of people. Message testing can help communicators understand which forms of messages, message frames, and message channels work for different audiences. It can range from asking a few people for feedback to testing messages directly with audiences into the thousands.	</p></div>
+<div class="swiper-slide"><h4>	RESEARCH METHODS	</h4><br>	<img src="assets/research_survey.png" width="100"><br><h2>	Survey Research	</h2><br><p>	Survey research can generate or validate hypotheses about people's attitudes, values, beliefs, practices, culture, behaviors, and capacity for change. Effective surveys go beyond opinion polling to understand people's core motivations, cultural assumptions, and their physical, social, and psychological situations.	</p></div>
+<div class="swiper-slide"><h4>	RESEARCH METHODS	</h4><br>	<img src="assets/research_touchpoints.png" width="100"><br><h2>	Touchpoints & Network Mapping	</h2><br><p>	Network analysis seeks to understand the structure and relationships between individuals, artifacts, and groups and the touchpoints that connect them. It describes the context and meaning of an individual's actions, the importance and flow of resources, ideas, and motivations, and the values systems and cultural trends within different groups.	</p></div>
+
+</div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+</main>
+
+
+    <!-- Swiper JS -->
+        <script src="js/swiper.js"></script>
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+    <!--    slidesPerView: 3, -->
+        paginationClickable: true,
+        spaceBetween: 30,
+        loop: true
+
+    });
+    </script>
+
+
+
+       <script src="js/slideout.js"></script>
+    <script src="js/slideout.min.js"></script>
+    
+        <script>
+      var slideout = new Slideout({
+        'panel': document.getElementById('panel'),
+        'menu': document.getElementById('menu'),
+        'padding': 256,
+        'tolerance': 70
+      });
+
+      // Toggle button
+      document.querySelector('.toggle-button').addEventListener('click', function() {
+        slideout.toggle();
+      });
+    </script>
+
+
+  </body>
+</html>

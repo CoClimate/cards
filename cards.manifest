@@ -1,0 +1,21 @@
+CACHE MANIFEST
+# 2015–10-06:v1
+
+# Explicitly cached 'master entries'.
+CACHE:
+index.html
+achievements.html
+research.html
+individual.html
+cultural.html
+media.html
+channels.html
+social.html
+milestones.html
+obstacles.html
+framing.html
+content.html
+
+
+# Resources that require the user to be online.
+NETWORK:

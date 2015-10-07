@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Superclime: Channels</title>
+    <meta http-equiv="cleartype" content="on">
+    <meta name="MobileOptimized" content="320">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    
+    
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+      <link rel="stylesheet" href="css/styles.css">
+            <link rel="stylesheet" href="css/index.css">
+            
+            
+            <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+            
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+
+  </head>
+  
+  <body>
+
+    <nav id="menu" class="menu">
+      <a href="http://coclimate.com" target="_blank">
+        <header class="menu-header">
+		<span class="menu-header-title">CoClimate</span>
+        </header>
+        </a>
+      
+
+      
+      <section class="menu-section">
+			<ul class="menu-section-list">
+          <li><a href="index.html">Overview</a></li>      
+          </ul>
+          </section>
+      
+      <section class="menu-section">
+        <h3 class="menu-section-title">Activation</h3>
+        <ul class="menu-section-list">
+          <li><a href="milestones.html">Milestones</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
+          <li><a href="obstacles.html">Obstacles</a></li>
+        </ul>
+      </section>
+      
+      <section class="menu-section">
+        <h3 class="menu-section-title">Values</h3>
+        <ul class="menu-section-list">
+          <li><a href="cultural.html">Cultural</a></li>
+          <li><a href="individual.html">Individual</a></li>
+        </ul>
+      </section> 
+      
+      <section class="menu-section">
+        <h3 class="menu-section-title">Communication</h3>
+        <ul class="menu-section-list">
+          <li><a href="content.html">Content</a></li>
+          <li><a href="research.html">Research Methods</a></li>
+          <li><a href="social.html">Social</a></li>
+          <li><a href="framing.html">Framing</a></li>
+          <li><a href="media.html">Media Types</a></li>
+          <li><a href="channels.html">Channels</a></li>
+        </ul>
+      </section>
+      
+      <section class="menu-section">
+        <h3 class="menu-section-title">CoClimate</h3>
+        <ul class="menu-section-list">
+          <li><a href="http://coclimate.com/about" target="_blank">About CoClimate</a></li>
+          <li><a href="http://twitter.com/coclimate" target="_blank">Follow Us</a></li>
+        </ul>
+      </section>
+      
+    </nav>
+
+    <main id="panel" class="panel">
+      <header class="panel-header">
+    <button class="btn-menu toggle-button">
+          <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </button>
+
+              </header>
+
+        
+        <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+<div class="swiper-slide"><h4>	CHANNELS	</h4><br>	<img src="assets/channel_personal.png" width="100"><br><h2>	Person-to-Person	</h2><br><p>	Person-to-person communication is emotionally engaging, persuasive, and effective. It allows for dialogue, participation, and the opportunity to establish trust. Nonverbal cues allow communicators to interpret people's reactions, learn about people's needs, discover what's most meaningful, and adapt their message accordingly.	</p></div>
+<div class="swiper-slide"><h4>	CHANNELS	</h4><br>	<img src="assets/channel_social.png" width="100"><br><h2>	Social Media	</h2><br><p>	Social media supports interactive communication and social transparency. Access, meaningful stories, and feedback can generate attention, interest, and broader awareness with large audiences. Communicators can also learn about identities and values, people's frames of reference, local issues, stories, solutions, and goals.	</p></div>
+<div class="swiper-slide"><h4>	CHANNELS	</h4><br>	<img src="assets/channel_traditional.png" width="100"><br><h2>	Traditional Media Channels	</h2><br><p>	Choosing the most appropriate channels for an audience can help you reach, motivate, and engage people in ways that are meaningful for them. Integrate messages across multiple channels, use communications tactics that fit people's needs, and work with trusted messengers to earn an audiences' trust.	</p></div>
+<div class="swiper-slide"><h4>	CHANNELS	</h4><br>	<img src="assets/channel_trusted.png" width="100"><br><h2>	Trusted Messengers	</h2><br><p>	People trust messengers who are familiar and credible. Connect with your audience to discover whose advice they share and who they look to for insight. Use variety of trusted messengers to connect broadly, and share simple, repeated messages.	</p></div>
+
+</div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+</main>
+
+
+    <!-- Swiper JS -->
+        <script src="js/swiper.js"></script>
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+    <!--    slidesPerView: 3, -->
+        paginationClickable: true,
+        spaceBetween: 30,
+        loop: true
+
+    });
+    </script>
+
+
+
+       <script src="js/slideout.js"></script>
+    <script src="js/slideout.min.js"></script>
+    
+        <script>
+      var slideout = new Slideout({
+        'panel': document.getElementById('panel'),
+        'menu': document.getElementById('menu'),
+        'padding': 256,
+        'tolerance': 70
+      });
+
+      // Toggle button
+      document.querySelector('.toggle-button').addEventListener('click', function() {
+        slideout.toggle();
+      });
+    </script>
+
+
+  </body>
+</html>
